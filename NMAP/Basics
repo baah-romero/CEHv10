@@ -1,0 +1,22 @@
+Uso NMAP
+  # nmap <parámetro> [<parámetros>] <objetivo> [<-p> <puerto>]
+
+Enumerar equipos activos en una red:
+  # nmap -Pn -T5 <red/mask>
+  
+Enumerar servicios activos:
+  # nmap -Pn -sS <red/mask>
+  
+Escaneo SILENCIOSO (Ping Sweep):
+  # nmap -sP <red/mask>
+ 
+Escaneo Silencioso de versiones de los servicios:
+  # nmap -sSV <red/mask>
+  
+  
+Escaneo para obtener el Sistema Operativo:
+  # nmap -sV -O <red>
+  
+  
+Exportar resultados del escaneo en un fichero XML:
+  # nmap -sSV -oX <red>

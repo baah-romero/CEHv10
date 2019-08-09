@@ -1,0 +1,8 @@
+Enumeración DNS
+ - Técnica DNS-NSEC Walking
+   # nmap -Pn -sSU -p53 --script=dns-nsec-enum --script-args dns-nsec-enum.domains=ucibrasil.com.br  1.1.1.1
+ 
+
+
+
+Enumeración SMTP
